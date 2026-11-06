@@ -21,7 +21,7 @@
 <!-- Explain why the Singleton pattern is appropriate for this particular system. --> The purpose of the singleton in this project will be to keep track of the player's score. It'll be completly drained when the player dies and go up by 10 for every apple they pick up. The singleton will also store the highest score the player has gotten.
 
 ### Implementation
-<!--Describe how the Singleton pattern is implemented in your project. --> 
+<!--Describe how the Singleton pattern is implemented in your project. --> The singleton in the project sits in the scene, unable to be reset adn 
 
 ---
 # Factory Pattern

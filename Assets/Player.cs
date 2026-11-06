@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 6;
     }
     // Update is called once per frame

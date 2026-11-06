@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        
+        Debug.Log($"Current Score: {CurrentScore}");
     }
 
 
