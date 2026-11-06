@@ -19,5 +19,10 @@ public class Score : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    void Update()
+    {
+        
+    }
+
 
 }
