@@ -29,9 +29,9 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Score.Instance.CurrentScore += 10;
-        Destroy(collision.gameObject);
-        //Spawn new apple.
+        
+        //collision.Die();
+        
     }
 
     void Die()
