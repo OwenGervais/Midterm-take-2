@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     {
         
         //collision.Die();
+        Destroy(collision.gameObject);
         
     }
 
